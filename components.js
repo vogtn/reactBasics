@@ -37,3 +37,5 @@ var myComponent = React.createClass({
     );
   }
 });
+
+ReactDOM.render(<MyComponent name="Handsome" />, document.getElementById('myDiv'));
