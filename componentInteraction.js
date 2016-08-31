@@ -37,3 +37,5 @@ ReactDOM.render(
   <Counter name={'Counter'} />,
   document.getElementById('Container')
 );
+
+//CounterDisplay click events are handled by Counter (parent component);
